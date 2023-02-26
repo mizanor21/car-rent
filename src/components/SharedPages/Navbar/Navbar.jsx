@@ -11,7 +11,7 @@ const Navbar = () => {
         <li><Link to={''}>Contacts</Link></li>
     </>
     return (
-        <section className='bg-black text-white sticky top-0 shadow-xl'>
+        <section className='text-white font-bold bg-gradient-to-r from-black via-yellow-500 to-black shadow-xl'>
             <div className="navbar container mx-auto py-5">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -22,7 +22,7 @@ const Navbar = () => {
                             {navItems}
                         </ul>
                     </div>
-                    <Link to={'/'} className="text-2xl md:text-3xl lg:text-4xl font-bold"><span className='text-yellow-500'>RENT </span><span>CAR</span></Link>
+                    <Link to={'/'} className="text-2xl md:text-3xl lg:text-4xl font-bold hover:animate-bounce"><span className='text-yellow-500'>RENT </span><span>CAR</span></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

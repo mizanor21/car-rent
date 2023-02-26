@@ -7,7 +7,7 @@ const BookCar = () => {
                 <div className="container mx-auto">
                     <h2 className='text-center py-12 text-white text-2xl lg:text-3xl font-bold'>BOOK A CAR TODAY!</h2>
                     <div className="">
-                        <select className="select w-full">
+                        <select className="select rounded-none w-full">
                             <option disabled selected>Select Car</option>
                             <option>TOYOTA AYGO</option>
                             <option>KIA CEED</option>
@@ -17,30 +17,30 @@ const BookCar = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
 
                             <div className="flex">
-                                <div className="bg-white flex justify-center items-center px-5 border-[2px] border-red-500">
+                                <div className="bg-white flex justify-center items-center px-5 border-[2px] ">
                                     <h5 className='font-bold'>PICK-UP</h5>
                                 </div>
-                                <select className="select w-full max-w-xs rounded-none border-[2px] border-red-500 bg-white">
+                                <select className="select w-full max-w-xs rounded-none border-[2px]  bg-white">
                                     <option disabled selected>Choose a location</option>
                                     <option>Han Solo</option>
                                     <option>Greedo</option>
                                 </select>
                             </div>
                             <div className="flex">
-                                <div className="bg-white flex justify-center items-center px-5 border-[2px] border-red-500">
+                                <div className="bg-white flex justify-center items-center px-5 border-[2px] ">
                                     <h5 className='font-bold'>PICK-UP</h5>
                                 </div>
-                                <select className="select w-full max-w-xs rounded-none border-[2px] border-red-500 bg-white">
+                                <select className="select w-full max-w-xs rounded-none border-[2px]  bg-white">
                                     <option disabled selected>Choose a date</option>
                                     <option>Han Solo</option>
                                     <option>Greedo</option>
                                 </select>
                             </div>
                             <div className="flex">
-                                <div className="bg-white flex justify-center items-center px-5 border-[2px] border-red-500">
+                                <div className="bg-white flex justify-center items-center px-5 border-[2px] ">
                                     <h5 className='font-bold'>PICK-UP</h5>
                                 </div>
-                                <select className="select w-full max-w-xs rounded-none border-[2px] border-red-500 bg-white">
+                                <select className="select w-full max-w-xs rounded-none border-[2px]  bg-white">
                                     <option disabled selected>Choose a time</option>
                                     <option>12 : 00 PM</option>
                                     <option>01 : 00 PM</option>
@@ -52,30 +52,30 @@ const BookCar = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
 
                             <div className="flex">
-                                <div className="bg-white flex justify-center items-center px-5 border-[2px] border-red-500">
+                                <div className="bg-white flex justify-center items-center px-5 border-[2px] ">
                                     <h5 className='font-bold'>DROP-OFF</h5>
                                 </div>
-                                <select className="select w-full max-w-xs rounded-none border-[2px] border-red-500 bg-white">
+                                <select className="select w-full max-w-xs rounded-none border-[2px]  bg-white">
                                     <option disabled selected>Choose a location</option>
                                     <option>Han Solo</option>
                                     <option>Greedo</option>
                                 </select>
                             </div>
                             <div className="flex">
-                                <div className="bg-white flex justify-center items-center px-5 border-[2px] border-red-500">
+                                <div className="bg-white flex justify-center items-center px-5 border-[2px] ">
                                     <h5 className='font-bold'>DROP-OFF</h5>
                                 </div>
-                                <select className="select w-full max-w-xs rounded-none border-[2px] border-red-500 bg-white">
+                                <select className="select w-full max-w-xs rounded-none border-[2px]  bg-white">
                                     <option disabled selected>Choose a date</option>
                                     <option>Han Solo</option>
                                     <option>Greedo</option>
                                 </select>
                             </div>
                             <div className="flex">
-                                <div className="bg-white flex justify-center items-center px-5 border-[2px] border-red-500">
+                                <div className="bg-white flex justify-center items-center px-5 border-[2px] ">
                                     <h5 className='font-bold'>DROP-OFF</h5>
                                 </div>
-                                <select className="select w-full max-w-xs rounded-none border-[2px] border-red-500 bg-white">
+                                <select className="select w-full max-w-xs rounded-none border-[2px]  bg-white">
                                     <option disabled selected>Choose a time</option>
                                     <option>12 : 00 PM</option>
                                     <option>01 : 00 PM</option>
