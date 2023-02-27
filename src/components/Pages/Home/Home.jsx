@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from '../Banner/Banner';
 import BookCar from '../BookCar/BookCar';
 import CustomerCenter from '../CustomerCenter/CustomerCenter';
+import Sponsorship from '../Sponsorship/Sponsorship';
 import VideoInfo from '../VideoInfo/VideoInfo';
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
             <BookCar />
             <VideoInfo />
             <CustomerCenter />
+            <Sponsorship />
         </div>
     );
 };
