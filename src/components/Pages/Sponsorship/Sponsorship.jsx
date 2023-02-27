@@ -1,8 +1,8 @@
 import React from 'react';
 import sponsored1 from '../../../assets/sponsored/2-cropped.png'
 import sponsored2 from '../../../assets/sponsored/2011.svg'
-import sponsored3 from '../../../assets/sponsored/ddbl-n.jpg'
-import sponsored4 from '../../../assets/sponsored/logo.a4624c6.svg'
+import sponsored3 from '../../../assets/sponsored/logo.a4624c6.svg'
+import sponsored4 from '../../../assets/sponsored/ddbl-n.jpg'
 
 const Sponsorship = () => {
     return (
